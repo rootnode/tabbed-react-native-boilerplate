@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "tabbed-react-native-boilerplate",
+    "slug": "tabbed-react-native-boilerplate",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/images/app-icon/icon.png",
+    "splash": {
+      "image": "./app/assets/images/splash/splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080738"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./app/assets/images/app-icon/icon.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#080738",
+        "backgroundImage": "./app/assets/images/app-icon/icon.png"
+      },
+      "icon": "./app/assets/images/app-icon/icon.png"
+    }
+  }
+}
