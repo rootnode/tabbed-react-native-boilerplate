@@ -1,6 +1,7 @@
 // Import dependencies
-import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import React from 'react'
+import { StyleSheet, View } from 'react-native'
+import { MediaQuery } from 'react-native-responsive-ui'
 
 // Import components
 import Colors from '../../constants/Colors'
@@ -12,9 +13,12 @@ export default class HomeScreen extends React.Component {
     return (
       <View style={styles.container}>
         <View style={styles.textContainer}>
-          <Title center>
-            Home Screen
-          </Title>
+          {/* Media Query library for responsive design */}
+          <MediaQuery minHeight={450} orientation="portrait">
+            <Title center>
+              Home Screen
+            </Title>
+          </MediaQuery>
           <Paragraph center>
             Edit app/screens/home/HomeScreen.js
           </Paragraph>

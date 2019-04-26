@@ -1,6 +1,7 @@
 // Import dependencies
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native'
+import { MediaQuery } from 'react-native-responsive-ui'
 
 // Import components
 import Colors from '../../constants/Colors'
@@ -12,9 +13,12 @@ export default class LinksScreen extends React.Component {
     return (
       <View style={styles.container}>
         <View style={styles.textContainer}>
-          <Title center>
-            Links Screen
-          </Title>
+          {/* Media Query library for responsive design */}
+          <MediaQuery minHeight={450} orientation="portrait">
+            <Title center>
+              Links Screen
+            </Title>
+          </MediaQuery>
           <Paragraph center>
             Edit app/screens/home/LinksScreen.js
           </Paragraph>
