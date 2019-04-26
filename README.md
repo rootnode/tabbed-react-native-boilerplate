@@ -15,7 +15,7 @@ npm install
 
 ## Authors
 
-* **Dmitry Poliyivets** - *All work* - [rootnode](https://github.com/rootnode/)
+* **Dmitry Poliyivets** [link](https://linkedin.com/in/dpoliyivets/) - *developed at* - [rootnode](https://github.com/rootnode/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
